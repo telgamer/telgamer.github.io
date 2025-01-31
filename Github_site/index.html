@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        HTML5 - Tabela com imagens e links para os clubes da escola ES Sampaio
+    </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid #2016b1;
+            padding: 5px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center; color: rgb(0, 0, 120)">
+        AGRUPAMENTO DE ESCOLAS DE SAMPAIO
+    </h2>
+    <p style="text-align: center; font-weight: bold">
+        Links directos para os clubes da AES
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>LOGO</th>
+                <th>PÁGINA CLUBE</th>
+                <th>BREVE DESCRIÇÃO</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <a href="https://drive.google.com/file/d/12UUzydAQgf6INNdFIMzZic-hnCd5g6AU/view" target="_blank">
+                        <img src="Images/clube_artes.jpg" alt="LOGO Clube Artes Decorativas" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://drive.google.com/file/d/12UUzydAQgf6INNdFIMzZic-hnCd5g6AU/view" target="_blank">
+                        Artes Decorativas
+                    </a>
+                </td>
+                <td>
+                    Clube Artes Decorativas - Desenvolver aptidões técnicas e manuais
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://drive.google.com/file/d/1znla7e9HyWebf_wZJijBd7dxbj5zkjz3/view" target="_blank">
+                        <img src="Images/clube_artesanato.jpg" alt="lOGO Clube Produção Artesanal" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://drive.google.com/file/d/1znla7e9HyWebf_wZJijBd7dxbj5zkjz3/view" target="_blank">AES
+                        Robot</a>
+                </td>
+                <td>Clube da Robótica - Desenvolver projectos de robótica e STEM</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://view.genially.com/63545ac344e22a0019d6b062/interactive-content-clube-cozinha-saudaveldivulgacao"
+                        target="_blank">
+                        <img src="Images/clube_cozinha.jpg" alt="LOGO Clube Cozinha" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://view.genially.com/63545ac344e22a0019d6b062/interactive-content-clube-cozinha-saudaveldivulgacao"
+                        target="_blank">Clube Cozinha</a>
+                </td>
+                <td>
+                    Clube da Cozinha Saudável e Sustentável<br />Promover a aquisição de
+                    hábitos alimentares saudáveis
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://view.genially.com/63617ef790fb9f0018a5b3f2/interactive-content-espaco-digitaldivulgacao"
+                        target="_blank">
+                        <img src="Images/clube_digital.jpg" alt="LOGO Clube Espaço Digital" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://view.genially.com/63617ef790fb9f0018a5b3f2/interactive-content-espaco-digitaldivulgacao"
+                        target="_blank">Clube Espaço Digital
+                    </a>
+                </td>
+                <td>
+                    Clube Espaço Digital - Promover um Espaço DIGITAL que incentive e
+                    apoie os professores na utilização de novas ferramentas digitais e
+                    de apoio ao estudo dos alunos, tal como a utilização da plataforma
+                    MILAGE APRENDER+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://view.genially.com/6355203724cb410010b77d96/interactive-content-protecao-civildivulgacao"
+                        target="_blank">
+                        <img src="Images/clube_protecao_civil.jpg" alt="LOGO Clube Protecção Civil" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://view.genially.com/6355203724cb410010b77d96/interactive-content-protecao-civildivulgacao"
+                        target="_blank">
+                        Clube Espaço Digital</a>
+                </td>
+                <td>
+                    Clube Protecção Civil - Sensibilizar e promover as questões da
+                    segurança no âmbito da Proteção Civil
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="https://view.genially.com/63532fee44e22a0019d40f6d/interactive-content-aes-robodivulgacao"
+                        target="_blank">
+                        <img src="Images/clube_robotica.jpg" alt="lOGO clube robótica" />
+                    </a>
+                </td>
+                <td>
+                    <a href="https://view.genially.com/63532fee44e22a0019d40f6d/interactive-content-aes-robodivulgacao"
+                        target="_blank">AES Robot</a>
+                </td>
+                <td>Clube da Robótica - Desenvolver projectos de robótica e STEM</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
